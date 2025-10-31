@@ -17,6 +17,7 @@
 			"location": {
 				"type": "AzureBlobStorageLocation",
 				"fileName": "Create_Curated.txt",
+				"folderPath": "Source",
 				"container": "container"
 			}
 		}
