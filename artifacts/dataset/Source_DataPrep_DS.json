@@ -20,12 +20,7 @@
 		"type": "Binary",
 		"typeProperties": {
 			"location": {
-				"type": "AzureBlobStorageLocation",
-				"folderPath": {
-					"value": "@dataset().DatasetSize",
-					"type": "Expression"
-				},
-				"container": "source"
+				"type": "AzureBlobStorageLocation"
 			}
 		}
 	}
