@@ -14,7 +14,7 @@ Please follow the below steps to successfully deploy a Synapse workspace and its
 
 * Once you fork the AzureSynapseEndToEndDemo project to your github account, please click on **Deploy to Azure** button to start the deployment
 
-    [![Deploy To Azure](/Images/deploytoazure.svg?sanitize=true)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fmicrosoft%2FAzureSynapseEndToEndDemo%2Fmain%2FARMTemplate%2Fazuredeploy.json)
+[![Deploy to Azure](https://aka.ms/deploytoazurebutton)](https://portal.azure.com/#create/Microsoft.Template/uri/https%3A%2F%2Fraw.githubusercontent.com%2Fdurlachert%2FAzureSynapseEndToEndDemo%2Fmain%2FARMTemplate%2Fazuredeploy.json)
 
 * **Deploy to Azure** button takes you to the https://ms.portal.azure.com/#create/Microsoft.Template webpage. Please provide subscription, resource group, region, storage account name, storage container name, workspace name, dedicated sql pool name, spark pool name, spark pool node size, sql administration username/password, sku (dedicated sql pool Data Warehouse Units), and github username parameter values.
 
@@ -51,3 +51,4 @@ Once you have the pipeline open, you can execute it by clicking debug.  When you
 
 
 ## Congratulations on completing setup. You are now ready to move to [Exercise 01 - Claims](/Exercise01-Claims/README.md)
+
